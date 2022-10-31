@@ -1,0 +1,10 @@
+HTML:
+Make a div to contain the area of operations.
+Add text generate color, color input and a input button to get selected colour & an area for displaying result colour code of selected hex.
+
+CSS:
+Style is subjective, btw I use online glass effect generator.
+
+JS:
+create a function to be executed when generate button is clicked.
+declare a vaiable to store the user choosen colour and set it as bg and display it's hex code in result section.
