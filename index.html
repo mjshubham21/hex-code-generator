@@ -8,6 +8,19 @@
     <title>Hex-code-generator</title>
   </head>
   <body>
-    <script src="index.js"></script>
+    <div class="container">
+      Choose Colour : <input type="color" class="colorPanel" />
+      <input type="button" value="Get Color" id="btn" onclick="getColor()" />
+      Hex-Code: <input type="text" id="box" />
+    </div>
+
+    <script>
+      function getColor() {
+        var color = document.getElementById("colorPanel").value;
+        document.getElementById("box").value = color;
+        document.body.style.backgroundColor = color;
+        console.log(color);
+      }
+    </script>
   </body>
 </html>
