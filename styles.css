@@ -59,6 +59,21 @@ body {
   background-color: aliceblue;
 }
 
+.git {
+  padding: 0.5rem;
+  border-radius: 25px;
+  border: 1px solid white;
+  width: 7em;
+  font-size: 1rem;
+  color: aliceblue;
+  background-color: black;
+}
+
+.git:hover {
+  color: black;
+  background-color: aliceblue;
+}
+
 #box {
   color: black;
   padding: 0.3rem;
