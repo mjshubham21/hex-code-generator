@@ -9,21 +9,17 @@
   </head>
   <body>
     <div class="container">
-      Choose Colour : <input type="color" class="colorPanel" />
+      Choose Colour : <input type="color" id="colorPanel" />
       <input type="button" value="Get Color" id="btn" onclick="getColor()" />
       Hex-Code: <input type="text" id="box" />
     </div>
 
-    <a href="https://github.com/mjshubham21/hex-code-generator.git">
+    <a
+      href="https://github.com/mjshubham21/hex-code-generator.git"
+      target="_blank"
+    >
       <button class="git">github link.</button></a
     >
-    <script>
-      function getColor() {
-        var color = document.getElementById("colorPanel").value;
-        document.getElementById("box").value = color;
-        document.body.style.backgroundColor = color;
-        console.log(color);
-      }
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
