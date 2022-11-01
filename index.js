@@ -4,5 +4,3 @@ function getColor() {
   document.getElementById("box").value = color;
   console.log(color);
 }
-
-// document.getElementById("colorPanel").addEventListener("input", getColor);
